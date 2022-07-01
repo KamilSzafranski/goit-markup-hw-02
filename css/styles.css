@@ -1,0 +1,166 @@
+:root {
+    --footer-header-bg-color: #2f303a;
+    --team-button-bg-color: #f5f4fa;
+    --backligh-color: #2196f3;
+    --text--black-color: #212121;
+    --text-grey-color: #757575;
+    --body-bg-color: #fff;
+    --text-white-color: #fff;
+    --button-bg-color: #2196f3;
+    --photo-bg-color: #fff;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--text--black-color);
+}
+.menu {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--text--black-color);
+}
+.company-name {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.menu-links a {
+    color: var(--text--black-color);
+    text-decoration: none;
+}
+
+.menu-contacts a {
+    color: var(--text-grey-color);
+    text-decoration: none;
+}
+
+.backlight {
+    color: var(--backligh-color);
+}
+.link:hover,
+.link:focus {
+    color: var(--backligh-color);
+}
+
+.header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    color: var(--text-white-color);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--footer-header-bg-color);
+}
+.header button {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-white-color);
+    background-color: var(--button-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.text h3 {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.text p {
+    line-height: 1.7;
+    color: var(--text-grey-color);
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team {
+    background-color: var(--team-button-bg-color-bg-color);
+}
+.team figure {
+    width: 270px;
+    height: 368px;
+    background-color: var(--photo-bg-color);
+    line-height: 1.1875;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.photo-title {
+    font-weight: 500;
+}
+.team p + p {
+    color: var(--text-grey-color);
+}
+.footer {
+    background-color: var(--footer-header-bg-color);
+    line-height: 1.7;
+}
+.footer .company-name {
+    color: var(--text-white-color);
+}
+
+.adress {
+    color: white;
+    font-style: normal;
+}
+.footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: normal;
+}
+.footer a:hover,
+.footer a:focus {
+    color: var(--backligh-color);
+}
+
+.portfolio {
+    font-size: 16px;
+    background-color: var(--body-bg-color);
+}
+
+.portfolio-filters button {
+    width: 114px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    border-radius: 4px;
+    border-width: 0px;
+    color: var(--text--black-color);
+    background: var(--team-button-bg-color);
+}
+.portfolio-filters button:hover,
+.portfolio-filters button:focus {
+    color: var(--text-white-color);
+    background-color: var(--button-bg-color);
+}
+.portfolio-photo figure {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #eeeeee;
+}
+.portfolio-photo .photo-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-photo .photo-description {
+    line-height: 1.1875;
+    color: var(--text-grey-color);
+}
