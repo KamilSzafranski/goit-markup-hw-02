@@ -89,7 +89,7 @@ body {
 }
 
 .team {
-    background-color: var(--team-button-bg-color-bg-color);
+    background-color: var(--team-button-bg-color);
 }
 .team figure {
     width: 270px;
