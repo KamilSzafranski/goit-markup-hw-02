@@ -69,6 +69,7 @@ body {
     color: var(--text-white-color);
     background-color: var(--button-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .text h3 {
@@ -142,6 +143,7 @@ body {
     border-width: 0px;
     color: var(--text--black-color);
     background: var(--team-button-bg-color);
+    cursor: pointer;
 }
 .portfolio-filters button:hover,
 .portfolio-filters button:focus {
