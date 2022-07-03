@@ -8,6 +8,7 @@
     --text-white-color: #fff;
     --button-bg-color: #2196f3;
     --photo-bg-color: #fff;
+    --logo-black-color: #000;
 }
 
 body {
@@ -30,6 +31,10 @@ body {
     line-height: 1.2;
 }
 
+.menu a {
+    color: var(--logo-black-color);
+    text-decoration: none;
+}
 .menu-links a {
     color: var(--text--black-color);
     text-decoration: none;
