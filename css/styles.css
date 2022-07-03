@@ -19,6 +19,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--text--black-color);
 }
+.link {
+    text-decoration: none;
+}
 .menu {
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -29,20 +32,15 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
+    color: var(--logo-black-color);
 }
 
-.menu a {
-    color: var(--logo-black-color);
-    text-decoration: none;
-}
 .menu-links a {
     color: var(--text--black-color);
-    text-decoration: none;
 }
 
 .menu-contacts a {
     color: var(--text-grey-color);
-    text-decoration: none;
 }
 
 .backlight {
@@ -115,17 +113,14 @@ body {
 .footer {
     background-color: var(--footer-header-bg-color);
     line-height: 1.7;
-}
-.footer .company-name {
     color: var(--text-white-color);
 }
 
-.adress {
-    color: white;
-}
 .footer a {
+    color: var(--text-white-color);
+}
+.adress a {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
 }
 .footer a:hover,
 .footer a:focus {
